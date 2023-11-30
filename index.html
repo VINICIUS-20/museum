@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <div id="container"><!-- Início Container -->
+        <header><!-- Início Cabeçalho -->
+            <div id="logo">
+                <h1><a href="index.html">Museu Nacional</a></h1>
+            </div>
+            <nav><!-- Início navegação -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!-- Fim navegação -->
+        </header><!-- Fim Cabeçalho -->
+        <div id="Principal"><!-- Inicio conteúdo principal -->
+            <div id="Conteúdo">
+                <section id="capa">
+                    <img src="./assets/images/museu.png" alt="Foto do museu">
+                </section>
+                <section id="postagens">
+                    <article><!-- Início vídeo -->
+                        <iframe width="310" height="170"
+                            src="https://www.youtube.com/embed/MufP60vnLnU?si=2fpXldARIHKRgm-R"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </article><!-- Fim vídeo -->
+                    <article id="mapa"><!-- Início mapa -->
+                        <h3>Mapa: Encontre o nosso museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.873921574734!2d2.332773092803054!3d48.86061452664042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sLouvre%20Museum!5e0!3m2!1sen!2sbr!4v1701299486718!5m2!1sen!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </article><!-- Fim mapa -->
+                    <article id="exposicoes"><!-- Incio exposições -->
+                        <h3>Exposicoes</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O cranio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguiça gigante e tigre-dente-de-sabre</a></li>
+                            <li><a href="">Plantas do Brasil</a></li>
+                            <li><a href="">Tereza Cristina: A imperatriz Arqueóloga</a></li>
+                            <li><a href="">Arte com dinossauros- paleoarte</a></li>
+                            <li><a href=""><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+
+                    </article><!-- Fim exposições -->
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorem tempora perspiciatis!
+                            Optio quo atque eius impedit hic rerum aliquid quod excepturi harum. Sint, eum eaque quidem
+                            reprehenderit officiis necessitatibus?
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum aut nobis debitis
+                            consequatur totam. Est aut quae molestiae sed tempore ipsa autem possimus, vel recusandae,
+                            obcaecati distinctio! Voluptatibus, ea quisquam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus blanditiis reiciendis
+                            explicabo delectus culpa, officiis veritatis cupiditate laboriosam repellendus soluta
+                            placeat, eligendi deleniti ea magnam minima illo animi ipsum a.
+                        </p>
+                    </article>
+                </section>
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="./assets/images/depoimento.png" alt="Depoimento sobre o museu">
+
+                </section>
+                <section id="visita"><!-- Inicio seção visita -->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Qtd de pessoas</label>
+                            <input class="campo" type="text" style="width: 30px;" id="qtd" value="1">
+                        </fieldset>
+                        <button type="button" class="botao" onclick="window.location.href='index.html'">
+
+                        </button>
+                    </form>
+
+                </section><!-- Fim seção visita -->
+                <section id="galeria"><!-- Inicio seção galeria -->
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="./assets/images/imagem1.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./assets/images/imagem2.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./assets/images/imagem3.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./assets/images/imagem4.jpg" alt="">
+                    </a>
+                </section><!-- Fim seção galeria -->
+            </aside>
+
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervos</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contatos</a>
+                </p>
+                <p>
+                    &copy 2019 <a href="">Museu Nacional</a> - Todos os direitos reservados
+                </p>
+            </footer>
+        </div><!-- Fim conteúdo principal -->
+    </div><!-- Fim Container -->
+</body>
+
+</html>
